@@ -152,7 +152,6 @@ A.linkSubMenu:hover {
 	font-weight: bold;
 	TEXT-DECORATION: none;
 	font-style: normal;
-	text-align: left;
 	padding-right: 25px;
 	line-height: 15px;
 }
@@ -508,4 +507,17 @@ A.linkContCV:hover {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+}
+
+.volver {
+	position: absolute;
+	bottom: 22px;
+	text-align: right;
+	right: 0px;
+	height: 23px;
+}
+
+.submenu {
+	padding-top:12px;
+	padding-bottom:12px;
 }
