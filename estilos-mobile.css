@@ -103,6 +103,7 @@ body#index-page {
 .contenido-titulo p {
 	padding: 0px;
 	margin: 0px;
+	float: left;
 }
 
 .volver {
@@ -119,4 +120,13 @@ body#index-page {
 	margin: 0 auto;
 	border-bottom: 1px solid #eae8e3;
 	padding-top: 5px;
+}
+
+.cerrar-pagina {
+	display: block;
+	float: right;
+}
+
+.cerrar-pagina a {
+	text-decoration: none;
 }

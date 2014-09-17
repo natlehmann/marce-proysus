@@ -530,3 +530,7 @@ A.linkContCV:hover {
 #submenu-visible {
 	display: block;
 }
+
+.cerrar-pagina {
+	display: none;
+}
