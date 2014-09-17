@@ -1,0 +1,21 @@
+body#index-page {
+	background-color: #e1eada;
+}
+
+.contenedor-pagina {
+	height: auto;
+}
+
+#index-page .header,
+#index-page .footer {
+	display: none;
+}
+
+#index-page .region-central {
+	margin-top: 100px;
+}
+
+.contenedor-central {
+	height: auto;
+	width: 100%;
+}
