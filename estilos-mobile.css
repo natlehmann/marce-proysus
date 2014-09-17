@@ -1,3 +1,7 @@
+body {
+	background-color: white;
+}
+
 body#index-page {
 	background-color: #e1eada;
 }
@@ -6,8 +10,10 @@ body#index-page {
 	height: auto;
 }
 
-#index-page .header,
-#index-page .footer {
+.header,
+.footer,
+.separador,
+.menu {
 	display: none;
 }
 
@@ -18,4 +24,53 @@ body#index-page {
 .contenedor-central {
 	height: auto;
 	width: 100%;
+}
+
+#home-page .menu {
+	display: block;
+	float: none;
+	height: auto;
+	width: 100%;
+	margin-top: 25px;
+}
+
+#home-page .contenido-principal {
+	display: none;
+}
+
+.logo,
+.menu-items {
+	margin: 0 auto;
+    text-align: center;
+    width: 250px;
+}
+
+.separador-menu-item {
+	border-top: 1px solid #eae8e3;
+	height: 4px;
+	margin-top: 4px;
+	width: 100%;
+}
+
+.separador-menu-item img,
+.menu-pie img {
+	display: none;
+}
+
+.menu-pie {
+    position: relative;
+    border-top: 1px solid #eae8e3;
+	height: 4px;
+	margin-top: 4px;
+	width: 100%;
+	float: none;
+	clear: both;
+}
+
+#home-page .submenu {
+	display: block;
+}
+
+.subitem-menu {
+	text-align: right;
 }

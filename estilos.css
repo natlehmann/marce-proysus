@@ -524,4 +524,9 @@ A.linkContCV:hover {
 .submenu {
 	padding-top:12px;
 	padding-bottom:12px;
+	display: none;
+}
+
+#submenu-visible {
+	display: block;
 }
