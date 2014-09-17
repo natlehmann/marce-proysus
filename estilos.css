@@ -427,6 +427,10 @@ A.linkContCV:hover {
 	background-color: white;
 }
 
+.region-central table td {
+	text-align: left;
+}
+
 .footer {
 	height: 108px;
 	width: 100%;
