@@ -21,6 +21,8 @@ body#index-page {
 
 #index-page .region-central {
 	margin-top: 50px;
+	height: auto;
+	padding-bottom: 50px;
 }
 
 .contenedor-central {
@@ -99,7 +101,7 @@ body#index-page {
 	padding-top: 15px;
 	font-size: 14px;
 	height: auto;
-	margin-bottom: 20px;
+	margin-bottom: 7px;
 	position: relative;
 }
 
@@ -140,10 +142,47 @@ td,
 A.linkMail,
 A.linkMail:link,
 A.linkMail:active,
-A.linkMail:visited {
+A.linkMail:visited,
+A.linkSubMenu,
+A.linkSubMenu:link,
+A.linkSubMenu:active,
+A.linkSubMenu:visited,
+A.linkMenu,
+A.linkMenu:link,
+A.linkMenu:active,
+A.linkMenu:visited,
+.linkMenuSelect {
 	font-size: 13px;
+}
+
+A.linkSubMenu,
+A.linkSubMenu:link,
+A.linkSubMenu:active,
+A.linkSubMenu:visited,
+A.linkMenu,
+A.linkMenu:link,
+A.linkMenu:active,
+A.linkMenu:visited,
+.linkMenuSelect {
+	line-height: 20px;
 }
 
 td.imagen-flecha {
 	width: 5%;
+}
+
+.marco-contenido-principal img.img-proyecto {
+	width: 100%;
+	height: auto;
+}
+
+.marco-contenido-principal .contenedor-img-proyecto {
+	float: left;
+    height: 90px;
+    margin-bottom: 4px;
+    width: 49%;
+}
+
+.logo-index-page {
+	padding-top: 57px;
 }
