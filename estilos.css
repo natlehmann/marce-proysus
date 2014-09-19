@@ -534,3 +534,8 @@ A.linkContCV:hover {
 .cerrar-pagina {
 	display: none;
 }
+
+.marco-contenido-principal img:first-child {
+	width: 100%;
+	height: auto;
+}

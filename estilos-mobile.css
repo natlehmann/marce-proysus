@@ -1,5 +1,7 @@
 body {
 	background-color: white;
+	overflow-y: scroll;
+	overflow-x: hidden; 
 }
 
 body#index-page {
@@ -18,7 +20,7 @@ body#index-page {
 }
 
 #index-page .region-central {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .contenedor-central {
@@ -31,7 +33,7 @@ body#index-page {
 	float: none;
 	height: auto;
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 #home-page .contenido-principal {
@@ -129,4 +131,8 @@ body#index-page {
 
 .cerrar-pagina a {
 	text-decoration: none;
+}
+
+td {
+	font-size: 13px;
 }
