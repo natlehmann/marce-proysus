@@ -98,14 +98,15 @@ body#index-page {
 	padding-left: 20px;
 	padding-top: 15px;
 	font-size: 14px;
-	height: 15px;
+	height: auto;
 	margin-bottom: 20px;
+	position: relative;
 }
 
 .contenido-titulo p {
 	padding: 0px;
 	margin: 0px;
-	float: left;
+	width: 90%;
 }
 
 .volver {
@@ -126,13 +127,23 @@ body#index-page {
 
 .cerrar-pagina {
 	display: block;
-	float: right;
+	position: absolute;
+	right: 10px;
+	top: 15px;
 }
 
 .cerrar-pagina a {
 	text-decoration: none;
 }
 
-td {
+td,
+A.linkMail,
+A.linkMail:link,
+A.linkMail:active,
+A.linkMail:visited {
 	font-size: 13px;
+}
+
+td.imagen-flecha {
+	width: 5%;
 }
