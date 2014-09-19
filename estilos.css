@@ -543,3 +543,16 @@ A.linkContCV:hover {
 td.imagen-flecha {
 	width: 2%;
 }
+
+.contenedor-links-sociales {
+	width: 100%;
+}
+
+.links-sociales-texto,
+.link-social {
+	float: left;
+}
+
+.links-sociales-texto {
+	padding-right: 10px;
+}
